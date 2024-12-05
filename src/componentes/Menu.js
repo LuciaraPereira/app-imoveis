@@ -13,7 +13,7 @@ function Menu(){
           
             <ul>
            
-                <li>  <Link className="links" to="/App"><FaRegBuilding /></Link> </li>
+                <li>  <Link className="links" to="/"><FaRegBuilding /></Link> </li>
                 <li>  <Link className="links" to="#"><FaRegCalendarAlt /></Link> </li>
                 <li>  <Link className="links" to="#"><BsBookshelf /></Link> </li>
                 <li>  <Link className="links" to="#"><BsPerson /> </Link> </li>

@@ -11,7 +11,7 @@ function Cadastro() {
     <div className="Cadastro">
 
     <header>
-    <Link  className="voltar"  to="/App"><ImArrowLeft2/></Link>
+    <Link  className="voltar"  to="/"><ImArrowLeft2/></Link>
      </header>
 
      <main>
