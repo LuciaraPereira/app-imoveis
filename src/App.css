@@ -1,0 +1,82 @@
+
+.App {
+  margin:0;
+}
+
+header{
+  display: flex;
+  gap: 30px;
+  justify-content: space-between; 
+  margin: 20px;
+  align-items: center; 
+}
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.voltar{
+  font-size: 30px;
+}
+
+.botoes{
+  margin-left: 20px;
+  font-size: 30px;
+  }
+
+.botoes button{
+  background-color:#ffffff;
+  gap:140px;
+  margin: 0 6px;
+  padding:5px 20px;
+  border-radius: 10px;
+  border:1px solid #5d2191;
+  outline: none;
+  cursor:pointer;
+}
+
+button:focus {
+  background-color: #7b2cbf; 
+  color: rgb(255, 255, 255); 
+}
+
+.imovel{
+  text-align:center;
+  margin-top:80px;
+  
+}
+
+.emoji{
+  font-size:60px;
+  color:#7b2cbf;
+}
+
+.btn-cadastro{
+  border-radius:8px ;
+  background-color:#ffffff;
+  border:1px solid #5d2191;
+  padding: 10px 70px;
+  color:#7b2cbf;
+  cursor:pointer;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
